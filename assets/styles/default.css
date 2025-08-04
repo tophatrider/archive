@@ -1,0 +1,14 @@
+html, body {
+	height: 100%;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+body { margin: 0 }
+
+#canvas_rider {
+	height: 100%;
+	pointer-events: stroke;
+	touch-action: manipulation;
+	width: 100%;
+}
